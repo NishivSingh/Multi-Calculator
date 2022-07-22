@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(24, 23, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.navbar a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 50px;
+}
+.navbar a:nth-child(3){
+    color: black;
+    background-color:white;
+    border: 2px solid white;
+    margin: 0;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
