@@ -11,7 +11,8 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 4rem;
+    width: 100%;
 }
 .navbar a{
     color: white;
@@ -35,13 +36,12 @@ body,html{
 }
 .content{
     background-color: #ffe2d2;
-    height: 500px;
-    width: 700px;
     margin: auto;
-    margin-top: 100px;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 25px;
+    margin-top: 5%;
+    width: 50rem;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
 }
 header {
     text-align: center;
@@ -49,12 +49,4 @@ header {
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.content :nth-child(2){
-    padding-top: 5px;
-    border-radius: 10px;
-}
-.content :nth-child(3){
-    padding-top: 5px;
-    border-radius: 10px;
 }

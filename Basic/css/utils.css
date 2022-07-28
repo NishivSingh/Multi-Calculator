@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 4rem;
 }
 .navbar a{
     color: white;

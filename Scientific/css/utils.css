@@ -3,16 +3,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 4rem;
+    width:100%;
 }
 .navbar a{
     color: white;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    margin: 15px;
+    margin: 0 2rem;
     padding: 7px;
-    border-radius: 50px;
+    border-radius: 2rem;
 }
 .navbar a:nth-child(3){
     color: black;
