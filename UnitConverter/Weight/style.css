@@ -9,32 +9,33 @@ main {
     background-image: linear-gradient(to bottom, #5d2695, #cff374);
 }
 
-#navbar{
-    height: 50px;
-    background-color: rgb(32, 83, 30);
+.navbar{
+    background-color: rgb(202 234 118);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4rem;
+    width: 100%;
 }
-#navbar a{
-    text-decoration: none;
-    font-size: 25px;
+.navbar a{
+    color: #5d2695;
     font-weight: bold;
-    color: rgb(231, 227, 227);
-    margin: 2rem;
-    padding: 5px;
-    border: 2px solid rgb(32, 83, 30);
-    border-radius: 9px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 50px;
 }
-#navbar a:hover{
-    cursor: pointer;
-    background-color: white;
-    color: rgb(32, 83, 30);
+.navbar a:nth-child(3){
+    color: rgb(202 234 118);
+    background-color:#5d2695;
+    border: 2px solid #5d2695;
+    margin: 0;
 }
-#navbar :nth-child(3){
+.navbar a:hover{
+    background-color: #5d2695;
+    color: rgb(202 234 118);
     cursor: pointer;
-    background-color: white;
-    color: rgb(32, 83, 30);
 }
 header {
     display: flex;

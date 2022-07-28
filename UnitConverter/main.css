@@ -8,33 +8,33 @@ main {
     height: 100vh;
     background-image: linear-gradient(to bottom, #5d2695, #cff374);
 }
-
-#navbar{
-    height: 50px;
-    background-color: rgb(32, 83, 30);
+.navbar{
+    background-color: rgb(202 234 118);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4rem;
+    width: 100%;
 }
-#navbar a{
-    text-decoration: none;
-    font-size: 25px;
+.navbar a{
+    color: #5d2695;
     font-weight: bold;
-    color: rgb(231, 227, 227);
-    margin: 2rem;
-    padding: 5px;
-    border: 2px solid rgb(32, 83, 30);
-    border-radius: 9px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 50px;
 }
-#navbar a:hover{
-    cursor: pointer;
-    background-color: white;
-    color: rgb(32, 83, 30);
+.navbar a:nth-child(4){
+    color: rgb(202 234 118);
+    background-color:#5d2695;
+    border: 2px solid #5d2695;
+    margin: 0;
 }
-#navbar :nth-child(1){
+.navbar a:hover{
+    background-color: #5d2695;
+    color: rgb(202 234 118);
     cursor: pointer;
-    background-color: white;
-    color: rgb(32, 83, 30);
 }
 .content{
     background-image: linear-gradient(to bottom, #cff374,#5d2695);
@@ -44,27 +44,25 @@ main {
     margin-top: 100px;
     padding: 15px;
     border-radius: 10px;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: space-evenly;
     font-size: 25px;
 }
-header {
-    text-align: center;
-    /* background-color:#8356b0; */
-    border-radius: 10px;
-    font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.content :nth-child(2){
-    /* background-color: #8d3cdf; */
-    padding: 5px;
-    border-radius: 10px;
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
 }
-.content :nth-child(3){
-    /* background-color: #ddeeb1; */
-    padding: 5px;
-    border-radius: 10px;
+.links a:hover{
+    color: darkblue;
+    text-decoration: underline;
 }
